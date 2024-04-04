@@ -1,0 +1,65 @@
+##) SystemVerilog
+
+#) DATA TYPES - 
+ - new data types for better encapsulation and compactness.
+ - 2 state datatypes( 0 or 1)
+    - it can simulate faster, take less memory and preferred in some design styles.
+ - 4 state datatypes( 0,1,x,z)
+
+| type     | states  | signed/unsigned | No.of bits | SV/V |
+| shortint |  2      | signed          |  16        | SV   |
+| int      |  2      | signed          |  32        | SV   |
+| longint  |  2      | signed          |  64        | SV   |
+| byte     |  2      | signed          |  8         | SV   |
+| bit      |  2      | Unsigned        |            | SV   |
+| logic    |  4      | Unsigned        |            | SV   |
+| reg      |  4      | Unsigned        |            | V    |
+| integer  |  4      | signed          |  32+       | V    |
+| time     |  4      | Unsigned        |  64        | V    |
+
+
+#) Signed / Unsigned  literals
+#) Void literals
+#) Integer and logic literals
+#) Time literals
+#) Array literals
+#) Structure
+   - typedef struct{
+      int a;
+      shortint b;
+      }ab;
+
+#) Strings - 
+  string myName = "Ramdas";
+
+  string Methods-
+  1) str.len() -> returns the length of string.
+  2) str.putc(i,c) -> replace the 'i'th character with 'c'.
+  3) str.getc(i) -> return the ASCII code of 'i'th character.
+  4) str.toupper() -> converts the string into uppercase.
+  5) str.tolower() -> converts the string into lowercase.
+  6) str.compare(s) -> compares in 'str' and 's' (case sensitive)
+  7) str.icompare(s) -> compares in 'str' and 's' (case insensitive)
+  8) str.substr(i,j) -> return the substring from 'i' to 'j'
+  9) str.atoi() -> returns the integer corresponding to the ASCII decimal representation in str.
+  10) str.atoreal() -> return the real number.
+  11) str.itoa(i) -> stores the ASCII represenatation of 'i' into str;
+  12) str.hextoa(i) 
+  13) str.bintoa(i)
+  14) str.realtoa(i)
+
+
+#) User defined datatypes 
+ 1) Class
+ 2) Enumarations
+ 3) Struct
+ 4) Union
+ 5) Typedef
+
+ A) Enumarations
+   enum {a,b,c,d,e,f} alphabet;
+   alphabet.first().next().last().prev();
+
+ B) Struct
+
+

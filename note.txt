@@ -1,0 +1,23 @@
+#) Systemverilog-
+The most valuable benefit of SystemVerilog is that it allows the user to construct reliable, repeatable verification environments, in a consistent syntax, that can be used across multiple projects.
+
+Verification Guidelines-
+ - Bugs are Good.
+ - Block level
+ - Integration level
+ 
+
+ ##) Procedural Blocks-
+ 1) always_comb-
+    - represent combinational logic.
+    - infers its sensitivity list.
+    - avoid the mismatch ( always @(*) )
+    - shared variables are prohabited.
+    - easy for software to identify the logic.
+    - always @(x,y,z) v/s always_comb -> execute ones even if no change in sensitivity list.
+    - always @(*) -> shared variables.
+    - 
+ 2) always_latch
+ 3) always_ff
+
+

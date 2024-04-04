@@ -1,0 +1,6 @@
+SystemVerilog Resources -
+# Data type -
+1) LRM
+2) Reference book
+3) Reference links
+
