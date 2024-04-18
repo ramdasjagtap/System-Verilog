@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../interface.srcs/sources_1/new/counter_ifc.sv" \
+"../../../../interface.srcs/sources_1/new/monitor.sv" \
+"../../../../interface.srcs/sources_1/new/test_counter.sv" \
+"../../../../interface.srcs/sources_1/new/up_down_counter.sv" \
+"../../../../interface.srcs/sources_1/new/top_counter.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+                   5: Drove request =2'b01
+                  15: request[0] asserted
+                  25: grant[0] asserted
+                  25:  grant = 2'b01   
+$finish called at time : 25 ns : File "/home/ramdas/Vidyaleap/SystemVerilog/arbitor/arbitor.srcs/sources_1/new/test_with_ifc.sv" Line 15

@@ -1,7 +1,8 @@
 `timescale 1ns / 1ps
 
-module tb_TrueDualPortMemory( );
+import  ports ::*;
 
+module tb_TrueDualPortMemory( );
   i_port port1_in;
   i_port  port2_in;
   o_port port1_out;

@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 13 2023
+20:21:30
+/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/bidir_if.sv,1713175781,systemVerilog,,/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/memory.sv,,bidir_if,,uvm,,,,,,
+/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/memory.sv,1713177708,systemVerilog,,/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/test_program.sv,/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/bidir_if.sv,memory,,uvm,,,,,,
+/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/tb_memory.sv,1713177096,systemVerilog,,/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/top_module.sv,/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/bidir_if.sv,tb_memory,,uvm,,,,,,
+/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/test_program.sv,1713177462,systemVerilog,,/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/top_module.sv,/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/bidir_if.sv,test_program,,uvm,,,,,,
+/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/top_module.sv,1713177327,systemVerilog,,,/home/ramdas/Vidyaleap/SystemVerilog/DualPortMemory/DualPortMemory.srcs/sources_1/new/bidir_if.sv,top_module,,uvm,,,,,,

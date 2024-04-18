@@ -1,18 +1,6 @@
 `timescale 1ns / 1ps
 
- typedef struct {
-  bit clk_write;
-  bit clk_read;
-   logic [9:0]  address;
-   logic cs;
-   logic [7:0] data_in;
-   logic RW;
-   logic data_out_en;
- }i_port;
-
- typedef struct {
-    logic [7:0] data_out;
- }o_port;
+import  ports ::*;
 
  module TrueDualPortMeory(
     input i_port port1_in,
@@ -22,7 +10,7 @@
    );
     
     // 1kbyte memory
-  logic [7:0] memory[0:1023];
+  logic [WIDTH-1:0] memory[0:DEPTH];
      
      // port - 1 
     // writing into memory     RW == 0;

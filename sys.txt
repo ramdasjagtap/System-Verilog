@@ -1,0 +1,4 @@
+
+# Regions in systemverilog
+# Primitives in SV.
+# 143 page on sv verification.

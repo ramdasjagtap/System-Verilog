@@ -9,7 +9,7 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling package xil_defaultlib.$unit_TrueDualPortMeory_sv_12155...
+Compiling package xil_defaultlib.ports
 Compiling module xil_defaultlib.TrueDualPortMeory
 Compiling module xil_defaultlib.tb_TrueDualPortMemory
 Compiling module xil_defaultlib.glbl
