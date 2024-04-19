@@ -6,13 +6,4 @@ Using 8 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.fsm_ifc
-Compiling module xil_defaultlib.mealy_101_DUT
-Compiling module xil_defaultlib.mealy_101_TB
-Compiling module xil_defaultlib.mealy_monitor
-Compiling module xil_defaultlib.top_mealy_101
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot top_mealy_101_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

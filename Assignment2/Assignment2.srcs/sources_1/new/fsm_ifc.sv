@@ -8,6 +8,16 @@ interface fsm_ifc(
     bit in;
     bit out;
     
+    clocking cb_TB @(negedge clk);
+     input out;
+     output in;
+  endclocking
+ 
+    clocking cb_M @( negedge clk);
+        input in;
+        input out;
+     endclocking
+     
     modport fsm_DUT(
      input clk,
      input arst,
@@ -16,17 +26,26 @@ interface fsm_ifc(
     );
     
    modport fsm_TB(
-     input clk,
-     output arst,
-     output in,
-     input out
+     clocking cb_TB,
+       output arst
     );
+    //   modport fsm_TB(
+//     input clk,
+//     output arst,
+//     output in,
+//     input out
+//    );
     
     modport fsm_MNTR(
-     input clk,
-     input arst,
-     input in,
-     input out
+     clocking cb_M,
+     input arst
     );
+    
+//      modport fsm_MNTR(
+//     input clk,
+//     input arst,
+//     input in,
+//     input out
+//    );
     
 endinterface
