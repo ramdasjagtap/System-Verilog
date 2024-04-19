@@ -1,2 +1,3 @@
 Time resolution is 1 ps
-$finish called at time : 230 ns : File "/home/ramdas/Vidyaleap/SystemVerilog/Assignment1/Assignment1.srcs/sim_1/new/tb_mux_4x1.sv" Line 31
+     -20000mux result saved successfully!!
+$finish called at time : 230 ns : File "/home/ramdas/Vidyaleap/SystemVerilog/Assignment1/Assignment1.srcs/sim_1/new/tb_mux_4x1.sv" Line 35
